@@ -1,0 +1,4 @@
+﻿  main.c
+E:\injector\injector\main.c(18,80): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+E:\injector\injector\main.c(18,76): warning C4024: 'CreateRemoteThread': different types for formal and actual parameter 6
+  injector.vcxproj -> E:\injector\Debug\injector.exe
