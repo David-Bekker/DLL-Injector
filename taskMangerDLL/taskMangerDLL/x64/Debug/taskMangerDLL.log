@@ -1,0 +1,16 @@
+﻿  main.c
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(27,81): warning C4133: '=': incompatible types - from 'char *' to 'DWORD *'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(28,66): warning C4133: '=': incompatible types - from 'char *' to 'LONG *'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(32,36): warning C4047: 'return': 'LONG *' differs in levels of indirection from 'int'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(19,1): warning C4133: 'initializing': incompatible types - from 'char *' to 'PIMAGE_IMPORT_DESCRIPTOR'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(20,1): warning C4133: 'initializing': incompatible types - from 'char *' to 'DWORD *'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(21,1): warning C4133: 'initializing': incompatible types - from 'char *' to 'LONG *'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(62,32): warning C4311: 'type cast': pointer truncation from 'LONG *' to 'LONG'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(62,44): warning C4311: 'type cast': pointer truncation from 'LONG *' to 'LONG'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(66,39): warning C4047: '=': 'LONG' differs in levels of indirection from 'NTSTATUS (__cdecl *)(SYSTEM_INFORMATION_CLASS,PVOID,ULONG,PULONG)'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(62,1): warning C4047: 'initializing': 'LPVOID' differs in levels of indirection from 'LONG'
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(11): warning C4716: 'EVILNtQuerySystemInformation': must return a value
+F:\codingHm\school\taskMangerDLL\taskMangerDLL\main.c(44): warning C4715: 'find_IAT_entery': not all control paths return a value
+     Creating library F:\codingHm\school\taskMangerDLL\x64\Debug\taskMangerDLL.lib and object F:\codingHm\school\taskMangerDLL\x64\Debug\taskMangerDLL.exp
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+F:\codingHm\school\taskMangerDLL\x64\Debug\taskMangerDLL.exe : fatal error LNK1120: 1 unresolved externals

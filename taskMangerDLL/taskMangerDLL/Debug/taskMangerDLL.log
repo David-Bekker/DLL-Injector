@@ -1,0 +1,13 @@
+﻿  main.c
+E:\taskMangerDLL\taskMangerDLL\main.c(70,81): warning C4133: '=': incompatible types - from 'char *' to 'DWORD *'
+E:\taskMangerDLL\taskMangerDLL\main.c(71,66): warning C4133: '=': incompatible types - from 'char *' to 'LONG *'
+E:\taskMangerDLL\taskMangerDLL\main.c(75,36): warning C4047: 'return': 'LONG *' differs in levels of indirection from 'int'
+E:\taskMangerDLL\taskMangerDLL\main.c(62,1): warning C4133: 'initializing': incompatible types - from 'char *' to 'PIMAGE_IMPORT_DESCRIPTOR'
+E:\taskMangerDLL\taskMangerDLL\main.c(63,1): warning C4133: 'initializing': incompatible types - from 'char *' to 'DWORD *'
+E:\taskMangerDLL\taskMangerDLL\main.c(64,1): warning C4133: 'initializing': incompatible types - from 'char *' to 'LONG *'
+E:\taskMangerDLL\taskMangerDLL\main.c(109,42): warning C4047: '=': 'PNT_QUERY_SYSTEM_PROCESS_INFORMATION' differs in levels of indirection from 'LONG'
+E:\taskMangerDLL\taskMangerDLL\main.c(110,39): warning C4047: '=': 'LONG' differs in levels of indirection from 'NTSTATUS (__stdcall *)(SYSTEM_INFORMATION_CLASS,PVOID,ULONG,PULONG)'
+E:\taskMangerDLL\taskMangerDLL\main.c(105,1): warning C4047: 'initializing': 'LPVOID' differs in levels of indirection from 'LONG'
+E:\taskMangerDLL\taskMangerDLL\main.c(87): warning C4715: 'find_IAT_entery': not all control paths return a value
+  LINK : E:\taskMangerDLL\Debug\taskMangerDLL.dll not found or not built by the last incremental link; performing full link
+  taskMangerDLL.vcxproj -> E:\taskMangerDLL\Debug\taskMangerDLL.dll
